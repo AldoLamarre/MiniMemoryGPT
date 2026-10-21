@@ -30,3 +30,10 @@ Built as a hands-on exploration of Transformer and LSTM sequence modeling, while
 | Persistent Memory | 32 | 2.4211 | 8 |
 | Persistent Memory | 256 | **2.3626** | 8 |
 | Persistent Memory | 1024 | 2.3802 | 8 |
+
+## Experimental Concrete ML demo
+
+An optional PowerSoftmax/FHE prototype is separate from the main model. Only the
+tiny model completed encrypted inference. Useful full-size encrypted
+inference has not been demonstrated. The cost to generate the key is too large. 
+See [the demo notes](docs/concrete-ml.md).
